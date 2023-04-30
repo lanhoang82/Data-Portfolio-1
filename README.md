@@ -15,7 +15,7 @@ Apart from the SQL projects below, I'm currently taking up an [8-week SQL challe
 
 With a database of 7 tables hosted on PostgreSQL, this SQL project aims to showcase my ability to write more advanced SQL queries. Via pgAdmin 4, I write queries with common types of joins, subqueries, common table expressions (CTEs) and window functions. A toy HR analytics database was employed to practice providing relevant insights and help management to answer questions that would inform personnel and compensation policies, such as:
 
-- How many employees in the company have earn more than the average salary of their respective deparment?
+- How many employees in the company have earned more than the average salary of their respective department?
 - What is the geographical distribution of the employees in the company (by city, country or region)? 
 - What is the salary range of the employees in the IT department?
 - Who is the employee who has been with the company the longest? Who is the most recently joined employee?
