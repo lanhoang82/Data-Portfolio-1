@@ -1,5 +1,3 @@
-# Welcome to my data portfolio!
-
 This repository is a portfolio of selected personal data-related projects I have completeted in the following areas:
 - Data analysis - using SQL and Python
 - Data visualization - using Tableau
