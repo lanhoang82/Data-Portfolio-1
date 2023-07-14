@@ -22,21 +22,7 @@ This dataset was compiled by Rebrickable, which is a website to help identify wh
 
 #### Parts Analysis:
 
-1. What are the top 10 most commonly used parts in LEGO sets?
-2. How has the availability of different parts changed over the years?
-3. Which parts are used across multiple themes, and how many themes do they appear in?
+1. What are the top 10 most stocked parts in the parts inventory?
+2. How many colors are there across all LEGO parts?
+3. What are the top 5 most stocked colors in the parts inventory?
 4. What is the distribution of part categories in the dataset?
-
-#### Color Analysis:
-
-1. What are the most frequently used colors in LEGO sets?
-2. How does the color distribution differ across different themes?
-3. What is the average number of colors used in sets for each theme?
-4. How has the usage of different colors changed over the years?
-
-#### Set Analysis:
-
-1. What is the distribution of the number of pieces in LEGO sets?
-2. How does the average price of sets vary with the number of pieces?
-3. Is there a correlation between the number of pieces and the average user rating of sets?
-4. How has the average price of sets changed over time?
