@@ -12,28 +12,29 @@ This dataset was compiled by Rebrickable, which is a website to help identify wh
 
 ### Questions that this project aims to answer:
 
-##### Theme Analysis:
+#### Theme Analysis: 
+[Link to Jupyter Notebook](https://github.com/lanhoang82/Data-Portfolio-1/blob/main/5.%20Python%20-%20pandas%20-%20Data%20Manipulation/LEGO%20Database%20-%20Theme%20Analysis.ipynb)
 
 1. Which are the top 5 themes with the most number of sets?
 2. How has the number of sets released in each of the above themes changed over time?
 3. What are the average and maximum number of pieces in sets for each of the above themes?
 4. Which themes have the highest and lowest average number of pieces per set?
 
-##### Parts Analysis:
+#### Parts Analysis:
 
 1. What are the top 10 most commonly used parts in LEGO sets?
 2. How has the availability of different parts changed over the years?
 3. Which parts are used across multiple themes, and how many themes do they appear in?
 4. What is the distribution of part categories in the dataset?
 
-##### Color Analysis:
+#### Color Analysis:
 
 1. What are the most frequently used colors in LEGO sets?
 2. How does the color distribution differ across different themes?
 3. What is the average number of colors used in sets for each theme?
 4. How has the usage of different colors changed over the years?
 
-##### Set Analysis:
+#### Set Analysis:
 
 1. What is the distribution of the number of pieces in LEGO sets?
 2. How does the average price of sets vary with the number of pieces?
