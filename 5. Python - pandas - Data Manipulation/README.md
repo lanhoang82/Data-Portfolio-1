@@ -1,4 +1,4 @@
-# Exploring and transforming data in LEGO Database using pandas
+# Exploring and transforming data in LEGO Database using Python
 ![40516](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/00472e33-7df1-4682-8bbf-904c39b54b95)
 
 ### Context:
@@ -10,7 +10,7 @@ This dataset contains the LEGO Parts/Sets/Colors and Inventories of every offici
 ### Acknowledgements:
 This dataset was compiled by Rebrickable, which is a website to help identify what LEGO sets can be built given bricks and pieces from other LEGO sets.
 
-### Questions that this project aims to answer:
+### Questions that this project aims to answer, using pandas and matplotlib:
 
 #### Theme Analysis: 
 [Link to Jupyter Notebook](https://github.com/lanhoang82/Data-Portfolio-1/blob/main/5.%20Python%20-%20pandas%20-%20Data%20Manipulation/LEGO%20Database%20-%20Theme%20Analysis.ipynb)
@@ -21,7 +21,7 @@ This dataset was compiled by Rebrickable, which is a website to help identify wh
 4. Which themes have the highest and lowest average number of pieces per set?
 
 #### Parts Analysis:
-
+[Link to Jupyter Notebook](https://github.com/lanhoang82/Data-Portfolio-1/blob/main/5.%20Python%20-%20pandas%20-%20Data%20Manipulation/2.%20LEGO%20Database%20-%20Parts%20Analysis.ipynb)
 1. What are the top 10 most stocked parts in the parts inventory?
 2. How many colors are there across all LEGO parts?
 3. What are the top 5 most stocked colors in the parts inventory?
