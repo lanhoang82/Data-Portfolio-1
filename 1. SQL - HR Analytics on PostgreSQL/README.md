@@ -1,4 +1,4 @@
-https://www.facebook.com/events/781610596833865/786121793049412/## Human Resources Analytics using PostgreSQL
+## Human Resources Analytics using PostgreSQL
 
 ![hr](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/d77d0a9c-4ab9-4806-b9a1-ca901fe3c6a4)
 
