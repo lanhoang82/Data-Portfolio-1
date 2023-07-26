@@ -1,4 +1,4 @@
-## Human Resources Analytics using PostgreSQL
+https://www.facebook.com/events/781610596833865/786121793049412/## Human Resources Analytics using PostgreSQL
 
 ![hr](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/d77d0a9c-4ab9-4806-b9a1-ca901fe3c6a4)
 
@@ -33,6 +33,7 @@ The ‘locations’, ‘regions’ and ‘countries’ tables allow us to drill 
 ```
 SELECT first_name "First Name", last_name "Last Name" FROM employees;
 ```
+![HR1](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/e28f72fe-a469-4ae6-91e6-cd3d8e849558)
 
 2. Get unique department ID from employee table
 
@@ -40,14 +41,16 @@ SELECT first_name "First Name", last_name "Last Name" FROM employees;
 ```
 SELECT DISTINCT department_id FROM employees;
 ```
+![H2](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/2f1c2643-e5fd-413a-b57a-fb3c6a3d4f27)
 
-3. Get the details of all employees from the employee table in descending order by their first name
+3. Get the details of all employees from the employee table in alphabetical order by their first name
 
 ###### Answer:
 ```
 SELECT * FROM employees 
-ORDER BY first_name DESC;
+ORDER BY first_name ASC;
 ```
+![H3](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/a8e513de-a2a4-45ec-968b-a50789b44c19)
 
 4. Get the employee ID, names (first_name, last_name) and salary in ascending order according to 
 their salary
@@ -57,6 +60,7 @@ their salary
 SELECT employee_id, first_name, last_name, salary FROM employees
 ORDER BY salary ASC;
 ```
+![H5](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/180f4f39-e1b0-47bd-8657-63966697fc67)
 
 5. Get the maximum and minimum salary paid to a particular employee
 
@@ -66,6 +70,7 @@ SELECT min_salary, max_salary FROM jobs
 INNER JOIN employees ON jobs.job_id = employees.job_id 
 WHERE employee_id = 180;
 ```
+![H4](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/30401aaa-2cd4-4d0c-88e7-39ea27dbdaac)
 
 6. Get the number of employees working with the company
 
@@ -73,6 +78,8 @@ WHERE employee_id = 180;
 ```
 SELECT COUNT(DISTINCT employee_id) FROM employees;
 ```
+![H6](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/4515f995-1f4c-4241-b527-7912a294665c)
+
 #### B. JOIN statement
 
 1. Make a join with employees and departments table to find the name of the employee, including first_name and last name, department ID and name of departments
@@ -83,6 +90,9 @@ SELECT first_name, last_name, employees.department_id, department_name
 FROM employees
 INNER JOIN departments ON employees.department_id = departments.department_id;
 ```
+![H7](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/b0f36a77-fd06-44d7-b75c-ae820727ce1b)
+
+
 2. Make a join with 4 tables employees, jobs departments and locations to find the name, including first_name and last_name, jobs, salary, department name and ID, of the employees working in Munich
 
 ###### Answer:
@@ -94,6 +104,8 @@ INNER JOIN departments ON departments.department_id = employees.department_id
 INNER JOIN locations ON departments.location_id = locations.location_id
 WHERE locations.city = 'Munich';
 ```
+![h8](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/90e704a9-a0ab-4bde-a37c-c213fc301d0f)
+
 3. Make a join with 3 tables employees, departments and locations to get the department name, number of employees working in each department, as well as number of locations that department has representation in.
 
 ###### Answer:
@@ -105,6 +117,9 @@ INNER JOIN locations ON locations.location_id = departments.location_id
 GROUP BY department_name
 ORDER BY "Number of Employees" DESC;
 ```
+![h9](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/df187b56-b775-4c3e-9c57-1e6be2d58f3d)
+
+
 #### C. CASE statements, Aggregate Functions and Group By
 
 1. Get the average salary for each post excluding all the clerks
@@ -118,6 +133,9 @@ WHERE job_title NOT LIKE '%Clerk%'
 GROUP BY job_title
 ORDER BY "Average Salary" DESC;
 ```
+![h10](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/f97928ee-1ad1-4306-a63b-b96f77d3bfc4)
+
+
 2. Categorize the average salary for each post in the ranges High, Mid, Low
 
 ###### Answer:
@@ -132,6 +150,9 @@ INNER JOIN jobs ON employees.job_id = jobs.job_id
 GROUP BY job_title
 ORDER BY "Average Salary" DESC;
 ```
+![h11](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/79676321-f201-4672-80ed-3d2adf01ca33)
+
+
 3. Get the job title, job ID, department name, department ID and maximum salary of each post for maximum salary is at or above $5000
 
 ###### Answer:
@@ -143,6 +164,8 @@ INNER JOIN departments AS d ON d.department_id = e.department_id
 WHERE max_salary > 5000
 ORDER BY max_salary DESC;
 ```
+![h12](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/6e6d816f-407c-4150-b80e-026d1be5358b)
+
 #### D. Subqueries and/or Common Table Expressions (CTE)
 
 1. Find the first_name, last_name and salaries of the employees who have salaries higher than or equal to the average salary of their job family
@@ -162,6 +185,9 @@ INNER JOIN avg_sal_title AS al ON j.job_title = al.job_title
 WHERE salary >= al.avg_salary
 ORDER BY salary DESC; 
 ```
+![h13](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/c61dee23-68b0-4539-9dee-a5d728aa5129)
+
+
 2. Find the first_name and last_name of the employees under a manager who works for a department based in the United States
 
 ###### Answer:
@@ -177,6 +203,9 @@ SELECT first_name, last_name, e.manager_id, country_name
 FROM employees AS e
 INNER JOIN manager_info AS mi ON mi.manager_id = e.manager_id;
 ```
+![h14](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/adfb32b3-6710-4642-a7ae-2503358805b0)
+
+
 3. Same request as above but using a subquery instead of a CTE
 
 ###### Answer:
@@ -190,6 +219,9 @@ WHERE manager_id IN (
 	LEFT JOIN countries AS co ON co.country_id = l.country_id
 	WHERE country_name = 'United States of America');
 ```
+![h15](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/602e98ac-aef8-48e6-aa76-2db82f13cc4a)
+
+
 4. Find the first_name, last_name and salary, which is equal to the minimum salary for this post he/she is working on.
 
 ###### Answer:
@@ -200,6 +232,8 @@ INNER JOIN jobs AS j
 	ON e.job_id = j.job_id
 WHERE salary = min_salary; -- first option without subquery
 ```
+![h16](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/d28d1c87-5a7f-44da-b39d-023b25b5b87b)
+
 ```
 SELECT first_name, last_name, salary
 FROM employees AS e
@@ -208,6 +242,8 @@ WHERE salary = (
 	FROM jobs AS j
 	WHERE e.job_id = j.job_id); --correlated subquery
 ```
+![h16 1](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/0e4dd4db-00a4-4c2e-ba07-cb54959d5753)
+
 #### F. Window Functions
 
 1. Find the first_name and last_name of the employees, their salary and the average salary of their job family
@@ -219,6 +255,9 @@ SELECT first_name, last_name, job_title, ROUND(salary, 0) AS salary,
 FROM employees AS e
 INNER JOIN jobs AS j ON e.job_id = j.job_id;
 ```
+![h17](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/90d9a622-a23c-4553-8bc8-1f41a61cd4c6)
+
+
 #### G. Date queries
 
 1. Get the first name and last name of the employees who have been with the company the longest, assuming everyone in the database is all current employees.
@@ -230,4 +269,5 @@ SELECT first_name, last_name, hire_date,
 FROM employees AS e
 ORDER BY employment_duration DESC;
 ```
+![h18](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/41c8fc2b-c3ce-4a9a-98cf-bace190b05a0)
 
