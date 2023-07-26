@@ -7,9 +7,9 @@ SELECT first_name "First Name", last_name "Last Name" FROM employees;
 /*Get unique department ID from employee table */
 SELECT DISTINCT department_id FROM employees;
 
-/*Get the details of all employees from the employee table in descending order by their first name*/
+/*Get the details of all employees from the employee table in alphabetical order by their first name*/
 SELECT * FROM employees 
-ORDER BY first_name DESC;
+ORDER BY first_name ASC;
 
 /*Get the employee ID, names (first_name, last_name) and salary in ascending order according to 
 their salary*/
