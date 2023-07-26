@@ -13,7 +13,7 @@ This dataset was compiled by Rebrickable, which is a website to help identify wh
 ### About the project:
 In this project, I use `pandas` and `matplotlib` to perform data joins, data frame transformation, text string manipulation, create pivot tables and data visualization to answer the following questions:
 #### LEGO Theme Analysis: 
-[Link to Jupyter Notebook](https://github.com/lanhoang82/Data-Portfolio-1/blob/main/5.%20Python%20-%20pandas%20-%20Data%20Manipulation/LEGO%20Database%20-%20Theme%20Analysis.ipynb)
+[Link to Jupyter Notebook]([https://github.com/lanhoang82/Data-Portfolio-1/blob/main/5.%20Python%20-%20pandas%20-%20Data%20Manipulation/LEGO%20Database%20-%20Theme%20Analysis.ipynb](https://github.com/lanhoang82/Data-Portfolio-1/blob/main/5.%20Python%20-%20pandas%20-%20Data%20Manipulation/1.%20LEGO%20Database%20-%20Theme%20Analysis.ipynb))
 
 1. Which are the top 5 themes with the most number of sets?
 2. How has the number of sets released in each of the above themes changed over time?
@@ -21,7 +21,7 @@ In this project, I use `pandas` and `matplotlib` to perform data joins, data fra
 4. Which themes have the highest and lowest average number of pieces per set?
 
 #### LEGO Parts Analysis:
-[Link to Jupyter Notebook](https://github.com/lanhoang82/Data-Portfolio-1/blob/main/5.%20Python%20-%20pandas%20-%20Data%20Manipulation/2.%20LEGO%20Database%20-%20Parts%20Analysis.ipynb)
+[Link to Jupyter Notebook]([https://github.com/lanhoang82/Data-Portfolio-1/blob/main/5.%20Python%20-%20pandas%20-%20Data%20Manipulation/2.%20LEGO%20Database%20-%20Parts%20Analysis.ipynb](https://github.com/lanhoang82/Data-Portfolio-1/blob/main/5.%20Python%20-%20pandas%20-%20Data%20Manipulation/2.%20LEGO%20Database%20-%20Parts%20Analysis.ipynb))
 1. What are the top 10 most stocked parts in the parts inventory?
 2. How many colors are there across all LEGO parts?
 3. What are the top 5 most stocked colors in the parts inventory?
