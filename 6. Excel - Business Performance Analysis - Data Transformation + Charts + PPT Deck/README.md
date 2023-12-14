@@ -20,8 +20,8 @@ For the King Lion, it is essential to have a clear picture of the profitability 
 I received data containing details about the animals, their different food preferences (diet), lifespan, weight, and places of origin. As I'm working for the King Lion's board, I've been asked to dissect the data and share the main insights and recommendations I can draw from this data.
 
 ## Deliverables:
-1. A PowerPoint or Google Slides deck of up to 6 slides (excluding the cover slide) including an executive summary, data visualizations, insights and recommendations.
-2. Final Excel workbook showcasing the steps taken to transform and analyze the data.
+1. [A PowerPoint deck](https://github.com/lanhoang82/Data-Portfolio-1/blob/main/6.%20Excel%20-%20Business%20Performance%20Analysis%20-%20Data%20Transformation%20%2B%20Charts%20%2B%20PPT%20Deck/Biodiversity%20Event_Business%20Performance%20Analysis%20Slides.pptx) of up to 6 slides (excluding the cover slide) including an executive summary, data visualizations, insights and recommendations.
+2. [Final Excel workbook](https://github.com/lanhoang82/Data-Portfolio-1/blob/main/6.%20Excel%20-%20Business%20Performance%20Analysis%20-%20Data%20Transformation%20%2B%20Charts%20%2B%20PPT%20Deck/Biodiversity%20Event_Business%20Performance%20Analysis_Excel%20Analysis.xlsx) showcasing the steps taken to transform and analyze the data.
 
 ## About the Received Data:
 The received Excel workbook contains four different tabs. Below is the purpose of each tab:
@@ -45,7 +45,9 @@ Table formatting was applied to enhance readability and ability to navigate. The
 ![currew](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/439fc342-75cd-49e4-9c61-cf9b7bf060bb)
 
 - Diet column: Missing data and a data entry error were identified. The typo was corrected and missing data were filled in based on the animals' diet information found on the Internet.
-- Weight column: Missing data was identified. Attempts were made to find the animals' average weight online to populate missing fields. However, animals with weight information do not fall into a consistent pattern of average weight information available. Given the lack of reliable sources and method of estimation, missing weight data are marked as "N/A".
+- Weight column: Missing data was identified. Attempts were made to find the animals' average weight online to populate missing fields. However, animals with weight information do not fall into a consistent pattern of average weight information available. Given the lack of reliable sources and methods of estimation, missing weight data are marked as "N/A".
+
+![missing](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/3bfbc32e-0ff1-459c-9b7b-a73ae2dbdbc1)
 
 - Animals' weight and lifespan information were transformed into consistent units (lbs and years respectively) and grouped into more meaningful buckets - Weight Group and Lifespan Group.
 
