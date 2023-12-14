@@ -1,16 +1,16 @@
 # Biodiversity Event - A Business Performance Analysis Using Excel and PowerPoint
 
 *Disclaimer*: This project was created as part of a take-home assignment for a data analyst job that I was interviewing for in September 2023. I made it to the final round and got very positive feedback on my technical abilities and cultural fit. Unfortunately, I did not get the job in the end, as the company ended up picking an internal candidate. 
-The company did not stipulate any clause of confidentiality on the assignment and the work that I delivered. I am proud of my work and would thus like to showcase what I have done as one of my data projects for the portfolio.
+The company did not stipulate any clause of confidentiality on the assignment and the work that I delivered, nor it's possible to identify the company from the information in the case. I am proud of my work and would thus like to showcase what I have done as one of my data projects for the portfolio.
 
 ![doerhoff-financial-ratios](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/5e306f9a-5b12-428f-a819-c0a198a3ae77)
 
 ## Table of Contents
 - [Context](#context)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Deliverables](#deliverables)
+- [About the Received Data](#about-the-received-data)
+- [Data after Transformation and Steps Taken](#data-after-transformation-and-steps-taken)
+- [Presentation Slides and Script](#presentation-slides-and-script)
 
 ## Context:
 Every year, the King Lion invites animals from around the world for an event explicitly focusing on biodiversity. My manager asked me to come up with an analysis of the participating animals to present to the King Lion and his board of directors. 
