@@ -79,8 +79,8 @@ I would now like to conclude with our recommendations for next year's event:
   
 Thank you for your time, and I'm open to any questions you may have.
 
-#### Slide 8: Appendeix
+#### Slide 8: Appendix I
 ![Slide8](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/cb55330d-dd78-497a-af07-6887fb3878be)
 
-#### Slide 9: Appendix
+#### Slide 9: Appendix II
 ![Slide9](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/2ef2190d-57d7-41e4-947b-e2dc4bcf96ea)
