@@ -1,7 +1,7 @@
 # Biodiversity Event - A Business Performance Analysis Using Excel and PowerPoint
 
-*Disclaimer*: This project was created as part of a take-home assignment for a job that I was interviewing for. I made it to the final round and got very positive feedback on my technical abilities and cultural fit. Unfortunately, I did not get the job in the end, as the company ended up picking an internal candidate. 
-The company did not stipulate any clause of confidentiality on the assignment and the work that I delivered. I am proud of my work and would like thus to showcase what I have done as one of my data projects for the portfolio.
+*Disclaimer*: This project was created as part of a take-home assignment for a job that I was interviewing for in September 2023. I made it to the final round and got very positive feedback on my technical abilities and cultural fit. Unfortunately, I did not get the job in the end, as the company ended up picking an internal candidate. 
+The company did not stipulate any clause of confidentiality on the assignment and the work that I delivered. I am proud of my work and would thus like to showcase what I have done as one of my data projects for the portfolio.
 
 ## Context:
 Every year, the King Lion invites animals from around the world for an event explicitly focusing on biodiversity. My manager asked me to come up with an analysis of the participating animals to present to the King Lion and his board of directors. 
@@ -81,12 +81,12 @@ Table formatting, conditional formatting and sorting were applied to enhance the
 
 ## Presentation Slides and Script: 
 
-#### Slide 1: Cover Slide
+### Slide 1: Cover Slide
 ![Slide1](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/48bb11f0-e327-4598-a276-5b5f88953663)
  
 I'm excited to present the analysis of the upcoming King Lion's biodiversity event. Our goal is to provide a clear picture of this year event's profitability, logistics, diversity, and key insights that can guide us in making informed decisions. Let's dive right in.
 
-#### Slide 2: Executive Summary
+### Slide 2: Executive Summary
 ![Slide2](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/4d2783ad-509c-4ee8-927b-1f0e54c7c214)
 
 To begin, let's take a look at the executive summary:
@@ -95,7 +95,7 @@ To begin, let's take a look at the executive summary:
 - Our top recommendations encompass optimizing costs by evaluating cost structures and potentially reducing unprofitable participants in overly represented regions, unless they are strategic partners. We also suggest focusing on growth in key regions and ensuring diversity by inviting participants from under-represented areas such as Latin America and Japan.
 - An "opportunity" refers to a specific area or situation where there is potential for improvement, growth, or positive change
 
-#### Slide 3: Participant Analysis
+### Slide 3: Participant Analysis
 ![Slide3](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/219e10a2-34c1-4fdc-b725-53e37c707979)
 
 Moving on to the participant analysis:
@@ -104,14 +104,14 @@ Moving on to the participant analysis:
 - If looking at geographical regions only, we've grouped South Asia, Greater China, Japan, and Asia Pacific into "Greater Asia Pacific," which now accounts for 23% of the participants.
 - If looking at revenue regions, interestingly, despite high first-time participant rate, Asia Pacific, Greater China, and Japan are still under-represented.
 
-#### Slide 4: Travel Logistics and Diversity Insights
+### Slide 4: Travel Logistics and Diversity Insights
 ![Slide4](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/c7742954-93bf-49e4-bd57-d826f18e32cb)
 
 Let's explore travel logistics and diversity insights:
 - Our travel logistics reveal a balanced distribution with boat, air, and road transport options. Notably, air transport is favored by participants from diverse regions.
 - Diversity-wise, we've observed a broad range of lifespans, with 74% falling under the < 25 years group. In terms of weight, 67% of participants weigh less than 100 lbs.
 
-#### Slide 5: Profitability by Diet
+### Slide 5: Profitability by Diet
 ![Slide5](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/e273b007-0318-4d40-9531-652ebb09fb0c)
 
 Switching gears, let's discuss profitability by diet:
@@ -119,14 +119,14 @@ Switching gears, let's discuss profitability by diet:
 - The Herbivore diet's higher profit margin suggests it might be more efficient in managing costs and resources, as a larger portion of the revenue is converted into profit, which can contribute to sustained profitability in the long term.
 - However, it's noteworthy that Herbivore participants are the smallest group and have the lowest percentage of first-time participants. This indicates significant growth potential for this group.
 
-#### Slide 6: Profitability by Region and Diet
+### Slide 6: Profitability by Region and Diet
 ![Slide6](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/ae4fd1f8-7db9-4bed-ba74-a1c165b1b991)
 
 Digging deeper into profitability, let's look at diet and region-specific insights:
 - Asia Pacific consistently leads with the highest profit margins across all diet types, closely followed by Greater China and Africa & MENA. Herbivore diets show efficient cost management across most regions, maintaining high profit margins.
 - However, participants with a Carnivore diet from Europe & Eurasia and North America face challenges due to higher diet costs. Additionally, both Latin America and Japan experience overall negative profit margins due to lower per-participant revenue.
 
-#### Slide 7: Recommendations
+### Slide 7: Recommendations
 ![Slide7](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/0504a792-3d95-4b83-a275-b8640ceff9ca)
 
 I would now like to conclude with our recommendations for next year's event:
@@ -134,11 +134,10 @@ I would now like to conclude with our recommendations for next year's event:
 - Boosting the presence of Herbivore participants and sustaining growth among Omnivore participants will contribute to this goal, while also enhancing financial performance
 - Cost-saving measures include reviewing costs and potentially reducing Carnivore participants from North America and Europe & Eurasia, aligning with our profitability objectives while promoting diet diversity
 - Lastly, ensuring diversity representation from under-represented regions like Latin America and Japan is crucial for geographical diversity.
-  
-Thank you for your time, and I'm open to any questions you may have.
+  Thank you for your time, and I'm open to any questions you may have.
 
-#### Slide 8: Appendix I
+### Slide 8: Appendix I
 ![Slide8](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/cb55330d-dd78-497a-af07-6887fb3878be)
 
-#### Slide 9: Appendix II
+### Slide 9: Appendix II
 ![Slide9](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/2ef2190d-57d7-41e4-947b-e2dc4bcf96ea)
