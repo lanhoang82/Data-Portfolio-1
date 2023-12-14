@@ -46,7 +46,7 @@ Table formatting was applied to enhance readability and ability to navigate. The
 
 - Diet column: Missing data and a data entry error were identified. The typo was corrected and missing data were filled in based on the animals' diet information found on the Internet.
 - Weight column: Missing data was identified. Attempts were made to find the animals' average weight online to populate missing fields. However, animals with weight information do not fall into a consistent pattern of average weight information available. Given the lack of reliable sources and methods of estimation, missing weight data are marked as "N/A".
-
+Formula used to identify missing data:
 ![missing](https://github.com/lanhoang82/Data-Portfolio-1/assets/47191803/3bfbc32e-0ff1-459c-9b7b-a73ae2dbdbc1)
 
 - Animals' weight and lifespan information were transformed into consistent units (lbs and years respectively) and grouped into more meaningful buckets - Weight Group and Lifespan Group.
